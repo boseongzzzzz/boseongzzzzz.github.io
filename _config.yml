@@ -6,9 +6,9 @@ description: > # this means to ignore newlines until "baseurl"
   Google search results) and in your feed.xml site description.
 
 baseurl:  # the subpath of the site
-url: https://github.com/EinHungerkuenstler/EinHungerkuenstler.github.io # the base hostname & protocol for your site
+url: http://boseongzzzzz.github.io # the base hostname & protocol for your site
 
-permalink: http://boseongzzzzz.github.io
+permalink: /:year-:month/:title
 timezone: GMT+9
 
 favicon: /assets/img/favicon.ico
@@ -20,7 +20,7 @@ cusdis:
 
 user:
   name: BOSEONG KIM
-  pic: /assets/img/profile.jpg
+  pic: /assets/img/boseong.png
   picAlt: "BS11"
   job: backend developer
   home: true

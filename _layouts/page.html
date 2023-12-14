@@ -8,12 +8,15 @@
 
     {% include header.html %}
 
-    {% include mobile_menu.html %}
-    
+    {% if content == "main.html" %}
+    <main class="main2">
+    {% else %}
     <main class="main">
+    {% endif %}
 
     {{ content }}
 
+    </main>
     </main>
 
   </div>

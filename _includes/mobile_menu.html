@@ -3,17 +3,24 @@
   <ul class="nav_list">
     {% if site.user.aboutme %}
     <li class="nav_item">
-      <a href="{{ site.baseurl }}/aboutme.html">About me</a>
+      <a href="{{ site.baseurl }}/pages/aboutme.html">About</a>
     </li>
-
     {% endif %}
-    {% for category in site.categories %}
-    {% capture cat_name %}{{ category | first }}{% endcapture %}
-
+    {% if site.user.skills %}
     <li class="nav_item">
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }} ({{ category | last | size }})</a>
+      <a href="{{ site.baseurl }}/pages/skills.html">Skills</a>
     </li>
-    {% endfor %}
+    {% endif %}
+    {% if site.user.project %}
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/pages/project.html">project</a>
+    </li>
+    {% endif %}
+    {% if site.user.contact %}
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/contact.html">Contact</a>
+    </li>
+    {% endif %}
   </ul>
 
 </nav>

@@ -2,9 +2,9 @@
 
 제가 그동안 준비해온 것들을 정리해둔 곳입니다.
 
-1. github : [https://github.com/boseongzzzzz](https://github.com/boseongzzzzz)
+- github : [https://github.com/boseongzzzzz](https://github.com/boseongzzzzz)
 
-2. velog : [https://velog.io/@bs11](https://velog.io/@bs11)
+- velog : [https://velog.io/@bs11](https://velog.io/@bs11)
 
 
 ## 프로젝트

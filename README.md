@@ -1,40 +1,19 @@
-# An Exhibition of a Hunger Artist
+# 백엔드 개발자를 희망하는 김보성 입니다.
 
-Here is the blog of WHY: [https://einhungerkuenstler.github.io](https://einhungerkuenstler.github.io)
+제가 그동안 준비해온 것들을 정리해둔 곳입니다.
 
-## Contents
+1. github : [https://github.com/boseongzzzzz](https://github.com/boseongzzzzz)
 
-- [Theme](#Theme)
-  - [Maths](#Maths)
-- [License](#license)
+2. velog : [https://velog.io/@bs11](https://velog.io/@bs11)
 
-## Rationale
 
-In March 2023, I had an idea to create my own personal webpage. Finally, after finishing my exams and during the summer vacation, I found the time to complete it. The main purpose of this webpage is to share some notes I've written on mathematics and physics. Additionally, I'll be sharing my interests in music, literature, philosophy, data science, quantitative finance and more. If I'm not feeling too lazy, I might also share some thoughts and experiences on this website!
-##  Theme
+## 프로젝트
 
-I use the theme [catbook](https://github.com/starry99/catbook)
- 
-I have not changed any style of this theme, at least for now.
+- [NullCrowd](https://github.com/boseongzzzzz/NullCrowd) : 제작자와 후원자가 모여 프로젝트에 대한 펀딩과 후원을 할 수 있는 크라우드 펀딩 웹사이트 입니다.
 
-### Maths
+- [Thumbs](https://github.com/boseongzzzzz/Thumbs) : 가상의 고객사 '국립국어원'에서 사용하는 것을 상정한, 결재 중심 그룹웨어 웹프로그램 입니다.
 
-  I decide to use Katex to render my maths. To get it to work, I just added the following html into my `head.html` file under my `_includes/` folder:
+- [In4Go](https://github.com/orgs/BoseongCho/repositories) : 가상의 고객사에서 사용하는 것을 상정한, 사원관리 그룹웨어 웹프로그램 입니다.
 
-```html
-<!-- Katex -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
 
-<!-- The loading of KaTeX is deferred to speed up page rendering -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
-
-<!-- To automatically render math in text elements, include the auto-render extension: -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
-```
-Remeber you just could $$ but $ could not work.
-
-For example, $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$
-## license
-
-[MIT License](https://opensource.org/licenses/MIT)
+### 
